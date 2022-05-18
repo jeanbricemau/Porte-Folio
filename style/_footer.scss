@@ -1,0 +1,43 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 150px;
+    background-color: #000000;
+    padding-bottom: 50px;
+    
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: fit-content;
+        list-style: none;
+        justify-content: center;
+        gap: 30px;
+
+
+        li{
+            
+                a{
+                    color: white ;
+                    text-decoration: none;
+                }
+        &:hover{
+            background-color: white !important ;
+            transition: all 300ms             ;
+            a{
+                color: black;
+
+            }
+        }
+        
+        
+
+    }
+    p{
+        color: white !important;}
+    }
+}

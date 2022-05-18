@@ -1,0 +1,67 @@
+@import "animation";
+@import "header";
+@import "about";
+@import "works";
+@import "skills";   
+@import "contact";
+@import "footer";
+@import "responsive";
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+// border: 1px solid black;
+font-family: 'Roboto Flex', cursive;
+
+
+}
+
+
+// font-family: 'Open Sans', sans-serif;
+//               'Roboto Flex', sans-serif;
+//               'Rubik Glitch', cursive;
+body{
+    overflow-X: hidden;
+    min-height:fit-content;
+}    
+
+
+h2{ 
+    // border: 1px solid black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #000000;
+    gap: 10px;
+    font-family: "Roboto mono";
+    width:100%;
+    
+    
+    &::before{
+        content: "";
+        width: fit-content;
+        height: 1px;
+        color: #7a7979;
+    }
+    &::after{
+        content: '';
+        display:flex;
+        height: 1px;
+        min-width: 50%;
+        
+        background-color: rgb(114, 74, 74);
+        border-bottom: 1px solid #7a7979    ;
+        align-self:flex-end;
+        margin:auto ;
+        margin-right:0%;
+    }
+}
+p{
+    font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 2rem;
+}

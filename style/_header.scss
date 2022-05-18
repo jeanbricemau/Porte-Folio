@@ -1,0 +1,104 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto;
+    width: 100vw;
+    height: fit-content;
+    min-height: 3vh;
+    position: sticky;
+    
+    z-index: 2;
+    .blur{
+        content: "";
+        width: 100%;
+        height:calc(auto + 20px);
+        background-color: rgba(255, 255, 255, 0.9);    
+        // filter: opacity(.1);
+        filter: blur(1px);
+        position: absolute;
+        z-index: 1;
+        // top: -60px;
+        min-height: 150px;
+
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 20px 0px;
+        z-index: 2;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5px;
+        height: 100%;
+        border-bottom: 1px solid rgb(120, 120, 120);
+        
+     
+        
+        a{
+            text-decoration: none;
+            color: black;
+            h1{
+                font-size: 2.5rem;
+                font-weight: 400;
+                color: #8892;
+            }
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            gap: 5vw;
+            list-style: none;
+            align-items: center;
+            z-index: 2;
+            li{
+                display: flex;
+                flex-direction: column;
+                &::after{
+                    display: flex;
+                    content: "";
+                    width: 0%;
+                    height: 1px;
+                    background-color:rgb(120, 120, 120) ;
+                    position: relative;
+                    top: 5px;
+    
+                }
+                &:hover{
+                    &::after{
+                        animation: underline 300ms ease-in-out both ;
+                    }
+                    
+                }
+            }
+    
+          
+        }
+        
+    }
+    
+    
+}
+@media screen and  (max-width:600px) {
+        
+       header{
+           font-size: large;
+           h1{
+               margin-bottom: 10px;
+           }
+           align-items: center;
+           gap: 10px;
+           flex-direction:column !important;
+           height: fit-content !important;
+           nav{
+               width: 100%;
+               ul{
+                   justify-content: space-around;
+               }
+           }
+       }
+}

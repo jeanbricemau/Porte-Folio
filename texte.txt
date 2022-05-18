@@ -1,0 +1,23 @@
+
+
+ID ABOUT 
+P1
+Passioner de d'innformatiqure et createur dans l'ame. J'ai en grande parti apreis seul grace 
+a Internet. Je sors d'une formation intensif de deux mois chez Arinfo; chez qui jai beaucoup apri.
+
+P2
+J'aime passer du temps sur les petit detail qui requiere beaucoup de minutie et de petit 
+details qui obtimise le voyage et qui transforme une visite en voyage remplis de petites chose.
+Je veux etre responsable et parti a la creation de projet avanguardiste. Les Awwward sont pour mooi un exemple et une but techique 
+
+
+ID MYWORK
+P1
+(presentation de mes travaux)
+
+ID SKILLS 
+( presentation de mes competence techique)
+
+
+ID CONTACT
+N'hesiter pqs a me CONTACT afin que nous puission travailler ensemble et cree en cohesion votre projet 

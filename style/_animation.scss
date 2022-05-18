@@ -1,0 +1,19 @@
+@keyframes underline {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+@keyframes translateCell{
+        100%{        
+            transform: translateX(600%);
+        }
+}
+@keyframes translateCellReverse{
+    100%{
+      transform: translateX(calc(600% + 180px));
+  }
+}
